@@ -1,0 +1,15 @@
+{
+  "name": "gtmos-plugins",
+  "description": "Claude Code plugins for GTMOS, Tam To Target's go-to-market operating system.",
+  "owner": {
+    "name": "Tam To Target"
+  },
+  "plugins": [
+    {
+      "name": "gtmos-insights",
+      "source": "./plugins/gtmos-insights",
+      "description": "Read-only GTMOS: calls, transcripts, meetings, email and campaign performance for the accounts your login can see. Cannot change anything.",
+      "category": "analytics"
+    }
+  ]
+}

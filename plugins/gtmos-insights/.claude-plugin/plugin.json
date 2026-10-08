@@ -1,0 +1,18 @@
+{
+  "name": "gtmos-insights",
+  "displayName": "GTMOS Insights",
+  "version": "1.0.0",
+  "description": "Read-only access to your outbound program in GTMOS: calls, transcripts, meetings booked, email campaigns and replies, for the accounts your login can see. Sign in with your GTMOS account (OAuth); nothing in this plugin can change data.",
+  "author": {
+    "name": "Tam To Target",
+    "url": "https://tamtotarget.com"
+  },
+  "homepage": "https://gtmos.tamtotarget.com/docs",
+  "keywords": [
+    "gtmos",
+    "outbound",
+    "sales",
+    "analytics",
+    "read-only"
+  ]
+}
