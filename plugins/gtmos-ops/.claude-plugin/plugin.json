@@ -1,0 +1,33 @@
+{
+  "name": "gtmos-ops",
+  "displayName": "GTMOS Ops",
+  "version": "1.0.2",
+  "description": "Internal GTMOS operations for Tam To Target: client data, lead loading, DNC and ops checks over the /api/mcp/ops server. What you can do follows your token: superadmin sees every tool, a GTM-write token sees reads plus data-plane writes, a read token sees reads.",
+  "author": {
+    "name": "Tam To Target",
+    "url": "https://tamtotarget.com"
+  },
+  "homepage": "https://gtmos.tamtotarget.com/docs",
+  "keywords": [
+    "gtmos",
+    "revops",
+    "hubspot",
+    "dnc",
+    "leads"
+  ],
+  "userConfig": {
+    "gtmos_api_token": {
+      "type": "string",
+      "title": "GTMOS API token",
+      "description": "Your personal token from GTMOS \u2192 Settings \u2192 API tokens (sdr_live_\u2026). Use the GTM-write token if you load leads or DNC; superadmins use their admin token. Stored in secure storage.",
+      "sensitive": true,
+      "required": true
+    },
+    "gtmos_url": {
+      "type": "string",
+      "title": "GTMOS URL",
+      "description": "Base URL of GTMOS. Change only to point at a staging deploy.",
+      "default": "https://gtmos.tamtotarget.com"
+    }
+  }
+}

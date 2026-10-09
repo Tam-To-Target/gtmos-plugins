@@ -10,6 +10,12 @@
       "source": "./plugins/gtmos-insights",
       "description": "Read-only GTMOS: calls, transcripts, meetings, email and campaign performance for the accounts your login can see. Cannot change anything.",
       "category": "analytics"
+    },
+    {
+      "name": "gtmos-ops",
+      "source": "./plugins/gtmos-ops",
+      "description": "Internal GTMOS operations for Tam To Target staff: client data, lead loading, DNC and ops checks. Needs a GTMOS API token; what you can do follows its scopes.",
+      "category": "operations"
     }
   ]
 }

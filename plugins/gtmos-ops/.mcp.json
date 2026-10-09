@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gtmos": {
+      "type": "http",
+      "url": "${user_config.gtmos_url}/api/mcp/ops",
+      "headers": { "Authorization": "Bearer ${user_config.gtmos_api_token}" }
+    }
+  }
+}
