@@ -1,7 +1,7 @@
 {
   "name": "gtmos-ops",
   "displayName": "GTMOS Ops",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Internal GTMOS operations for Tam To Target: client data, lead loading, DNC and ops checks over the /api/mcp/ops server. What you can do follows your token: superadmin sees every tool, a GTM-write token sees reads plus data-plane writes, a read token sees reads.",
   "author": {
     "name": "Tam To Target",

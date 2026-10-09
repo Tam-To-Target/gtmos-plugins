@@ -26,7 +26,7 @@ stored in your OS keychain. Change it later with `/plugin configure gtmos-ops@gt
 |---|---|
 | `gtmos` MCP server | `/api/mcp/ops`, authenticated with your token |
 | `gtmos-client` skill | Answers any question about a client's calls, emails, replies, meetings, leads, DNC |
-| `load-leads` skill | Batch lead loading (`admin_create_leads`, 50/call), dry run first |
+| `load-leads` skill | Dial lists as one job (`admin_import_dial_list`: preview → approve → result), saved per-client profiles |
 | `dnc` skill | Batch DNC checks (1,000/call), source audit, add/import/remove |
 | `call-review` skill | Objections, coaching points and conversion from transcripts |
 | `client-ops-check` skill | Superadmin health check of one client's wiring (read-only) |
@@ -48,6 +48,7 @@ or `claude plugin update` will report "already at the latest version" and keep t
 
 | Version | Date | Change |
 |---|---|---|
+| 1.0.3 | 2026-10-09 | `load-leads`: lists go through `admin_import_dial_list` (doc 81) — one job, profiles, extensions, enrollment |
 | 1.0.2 | 2026-10-09 | Published in the public `Tam-To-Target/gtmos-plugins` marketplace (no GitHub login needed); example client names made generic |
 | 1.0.1 | 2026-10-08 | `load-leads`: 15 leads per call (the 50 cap was reverted), real-write timing |
 | 1.0.0 | 2026-10-08 | First release |

@@ -35,7 +35,8 @@
     "enroll_leads",
     "migrate_enrollments",
     "unenroll_leads",
-    "reassign_lead_owner"
+    "reassign_lead_owner",
+    "admin_import_dial_list"
   ],
   "pass": [
     "admin_add_dnc_entry",
@@ -45,6 +46,8 @@
     "admin_link_lead_campaign",
     "admin_upsert_account",
     "admin_upsert_dnc_source",
-    "admin_upsert_lead"
+    "admin_upsert_lead",
+    "admin_cancel_list_import",
+    "admin_upsert_list_profile"
   ]
 }
